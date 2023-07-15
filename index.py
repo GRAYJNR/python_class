@@ -109,7 +109,24 @@ fruits = ("apple", "banana", "cherry", "mango", "pineapple", "papaya")
 
 # newfruitlist[3] = "kiwi"
 
-tuple1 = ("a", "b", "c")
-tuple2 = (1, 2, 3)
-tuple = (tuple1+tuple2)
-print(tuple)
+# tuple1 = ("a", "b", "c")
+# tuple2 = (1, 2, 3)
+# tuple = (tuple1+tuple2)
+# print(tuple)
+
+
+class Human():
+    #properties
+    def __init__(self, name, color, height):
+        self.name = name
+        self.color = color
+        self.height = height
+
+    #method
+
+firstHuman = Human("gray", "red", 2.00)
+print("firstHuman:", firstHuman.name)
+print("firstHuman:", firstHuman.color)
+secHuman = Human("john", "white", 1.90)
+print("firstHuman:", secHuman.name)
+print("firstHuman:", secHuman.color)
